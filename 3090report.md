@@ -227,11 +227,15 @@ We built a calibration system using the [RRZE-HPC gpu-benches](https://github.co
 
 Each measurement is repeated 3+ times with CoV (coefficient of variation) stability verification.
 
-### 4.3 Calibrated Values
+### 4.3 Parameters for This GPU
 
-| GPU | l2_perf_ratio | dram_perf_ratio | dram_bw_coeff | hbm_latency_penalty |
-|-----|:---:|:---:|:---:|:---:|
-| AMD MI300X (reference) | 2040 | 600 | 0.005 | 200 |
+| Parameter | NVIDIA GeForce RTX 3090 | AMD MI300X (reference) |
+|-----------|:---:|:---:|
+| `mma_latency` | 33 | 16 |
+| `l2_perf_ratio` | 1269.2 | 2040 |
+| `dram_perf_ratio` | 439.2 | 600 |
+| `dram_bw_coeff` | 0.0317 | 0.005 |
+| `hbm_latency_penalty` | 500 | 200 |
 
 ---
 

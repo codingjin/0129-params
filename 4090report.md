@@ -229,9 +229,9 @@ Each measurement is repeated 3+ times with CoV (coefficient of variation) stabil
 
 ### 4.3 Calibrated Values
 
-| GPU | l2_perf_ratio | dram_perf_ratio | dram_bw_coeff | hbm_latency_penalty |
-|-----|:---:|:---:|:---:|:---:|
-| AMD MI300X (reference) | 2040 | 600 | 0.005 | 200 |
+| GPU | l2_perf_ratio | dram_perf_ratio | dram_bw_coeff | hbm_latency_penalty | mma_latency |
+|-----|:---:|:---:|:---:|:---:|:---:|
+| NVIDIA RTX 4090 | 1894.6 | 342.7 | 0.0222 | 622 | 33 |
 
 ---
 
